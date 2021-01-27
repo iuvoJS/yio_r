@@ -1,5 +1,6 @@
 import $ from "jquery";
 import { Component } from "react";
+import platform from "platform";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
@@ -24,6 +25,11 @@ class Navbar extends Component {
 
       e.preventDefault();
     });
+
+    $(".nav-backdrop").mouseup(() => {
+      $(".menu-toggle").removeClass("open");
+      $("body").removeClass("show-sidebar");
+    });
   };
 
   componentDidMount() {
@@ -32,18 +38,21 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar-expand navbar">
-        <div className="collapse navbar-collapse">
-          <div className="nav-wrapper">
-            <span className="menu-toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
+      <div>
+        <nav className="navbar-expand navbar">
+          <div className="collapse navbar-collapse">
+            <div className="nav-wrapper">
+              <span className="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+        <div className="nav-backdrop" tabIndex="-1"></div>
+      </div>
     );
   }
 }
@@ -119,18 +128,20 @@ class Sidenav extends Component {
 
 class Header extends Component {
   componentDidMount() {
-    $(".nav-backdrop").mouseup(() => {
-      $(".menu-toggle").removeClass("open");
-      $("body").removeClass("show-sidebar");
-    });
+    console.log(platform.os.family)
   }
 
   render() {
     return (
-      <div>
-        <Navbar />
-        <div className="nav-backdrop" tabIndex="-1"></div>
-      </div>
+      <header>
+        <div className="container">
+          <h1>Yeeet It Out!</h1>
+          <div className="button-group">
+            <a href="#!" className="btn btn-secondary">play demo</a>
+            <a href="#!" className="btn btn-primary">get now</a>
+          </div>
+        </div>
+      </header>
     );
   }
 }
@@ -139,6 +150,7 @@ function App() {
   return (
     <div>
       <Sidenav />
+      <Navbar />
       <Header />
     </div>
   );
