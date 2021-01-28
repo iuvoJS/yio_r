@@ -1,50 +1,30 @@
 // import $ from "jquery";
-
 import { Component } from "react";
-import platform from "platform";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-faGithub,
-faDiscord,
-faPatreon,
-faFacebookF,
-} from "@fortawesome/free-brands-svg-icons";
-import Iphone from "./iphone";
+import Preview from "./assets/preview";
 
-class Main extends Component {
-  componentDidMount() {
-    console.log(platform.os.family);
-  }
-
+class Home extends Component {
   render() {
     return (
       <div className="main">
-        <div className="row">
-          <div className="col-lg-3">
-            <Iphone path="iphone-bg.png" />
-          </div>
-          <div className="col-lg-6 content">
-            <h1>Download now!</h1>
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <div className="button-group">
-              <button className="btn primary">Download</button>
-              <button className="btn secondary">Read more</button>
+        <div className="container_2">
+          <div className="row">
+            <div className="col-lg-6 content">
+              <h3>Introducing the beta version of</h3>
+              <h1>Yeeet It Out!</h1>
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div className="download-group">
+                <button className="btn primary">Download</button>
+                <span>
+                  The app is available for <strong>Windows 7 +</strong>,{" "}
+                  <strong>OS X 10.9 +</strong>, and <strong>Linux</strong>
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-6 content-image">
+              <Preview />
             </div>
           </div>
-        </div>
-        <div className="socials">
-          <div className="icon">
-            <FontAwesomeIcon icon={faGithub} />
-          </div>
-          <div className="icon">
-            <FontAwesomeIcon icon={faDiscord} />
-          </div>
-          <div className="icon">
-            <FontAwesomeIcon icon={faPatreon} />
-          </div>
-          <div className="icon">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </div>
+          <div className="hr"></div>
         </div>
       </div>
     );
@@ -52,7 +32,7 @@ class Main extends Component {
 }
 
 function App() {
-  return <Main />;
+  return <Home />;
 }
 
 export { App };

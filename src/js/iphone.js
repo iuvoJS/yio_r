@@ -14,7 +14,7 @@ class Iphone extends Component {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                "\n            .cls-1,\n            .cls-3,\n            .cls-6 {\n                fill: none;\n            }\n\n            .cls-2 {\n                fill: #fff;\n            }\n\n            .cls-3 {\n                stroke: #f7f7f7;\n                stroke-width: 4px;\n            }\n\n            .cls-3,\n            .cls-6 {\n                stroke-miterlimit: 10;\n            }\n\n            .cls-4 {\n                clip-path: url(#clip-path);\n            }\n\n            .cls-5 {\n                isolation: isolate;\n            }\n\n            .cls-6 {\n                stroke: #e7eaf3;\n            }\n\n            .cls-7 {\n                fill: #f7f7f7;\n            }\n        ",
+                "\n            .cls-1,\n            .cls-3,\n            .cls-6 {\n                fill: none;\n            }\n\n            .cls-2 {\n                fill: #0c0b0c;\n            }\n\n            .cls-3 {\n                stroke: #585652;\n                stroke-width: 4px;\n            }\n\n            .cls-3,\n            .cls-6 {\n                stroke-miterlimit: 10;\n            }\n\n            .cls-4 {\n                clip-path: url(#clip-path);\n            }\n\n            .cls-5 {\n                isolation: isolate;\n            }\n\n            .cls-6 {\n                stroke: #585652;\n            }\n\n            .cls-7 {\n                fill: #585652;\n            }\n        ",
             }}
           />
           <clipPath id="clip-path">
