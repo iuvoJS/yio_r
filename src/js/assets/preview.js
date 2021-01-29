@@ -22,6 +22,7 @@ class Preview extends Component {
   componentDidMount() {
     let swap = platform.os.family;
 
+    // If user is on a desktop
     if (!isMobile) {
       this.setState({
         source: MacBook,
@@ -33,6 +34,7 @@ class Preview extends Component {
     }
 
     switch (swap) {
+      // If platform is an iPhone/iPod/etc
       case "iOS":
         this.setState({
           source: iPhone,

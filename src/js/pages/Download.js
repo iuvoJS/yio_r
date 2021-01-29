@@ -4,8 +4,11 @@ import { Component } from "react";
 
 import "../../css/download.min.css";
 
+import pathConfig from "../assets/path.json";
+
 class Download extends Component {
   componentDidMount() {
+    console.log(pathConfig)
     document.querySelector(".download__platform").innerHTML =
       platform.os.family;
   }

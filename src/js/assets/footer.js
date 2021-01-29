@@ -1,6 +1,7 @@
 import { Component } from "react";
 import logo from "../../assets/svg/logo.svg";
 import iconSubmit from "../../assets/svg/icons/submit.svg";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -84,8 +85,8 @@ class Footer extends Component {
               <p>Copyright &copy; 2021 Tim Naumann. All rights reserved.</p>
             </div>
             <div className="footer-footer-links">
-              <a href="#!">Imprint</a>
-              <a href="#!">Privacy Policy</a>
+              <Link to="/imprint">Imprint</Link>
+              <Link to="/privacypolicy">Privacy Policy</Link>
             </div>
           </div>
         </div>

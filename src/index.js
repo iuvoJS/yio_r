@@ -7,6 +7,7 @@ import "./css/main.min.css";
 
 import Landing from "./js/pages/Landing";
 import Download from "./js/pages/Download";
+import Imprint from "./js/pages/Imprint";
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
         <Switch>
           <Route path="/" exact component={Landing}></Route>
           <Route path="/download-app" component={Download}></Route>
+
+          <Route path="/imprint" component={Imprint}></Route>
         </Switch>
       </Router>
     );

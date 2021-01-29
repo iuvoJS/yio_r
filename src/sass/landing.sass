@@ -1,5 +1,4 @@
 .main
-    margin-top: 50px
     margin-bottom: 144px
     display: flex
     justify-content: center
@@ -28,8 +27,19 @@
         padding-top: 45px
         max-width: 80%
 
+        @media (max-width: 475.98px)
+            flex-direction: column
+            text-align: center
+            margin: 0 auto
+            max-width: 95%
+
+
         button
             margin-right: 20px
+
+            @media (max-width: 475.98px)
+                width: 100%
+                margin: 0
 
         span
             color: #95a2b3
@@ -44,54 +54,34 @@
         justify-content: space-between
         padding: 56px 0
 
+        @media (max-width: 991.98px)
+            padding-top: 0
+
+
         .content
             text-align: left
             padding-left: 0 !important
+            padding-right: 0 !important
 
         div.content-image
             display: flex
-            justify-content: flex-end
+            justify-content: center
             svg, img
                 width: 100%
                 height: auto
-                margin-top: -50px
                 filter: drop-shadow( 0px 12px 15px rgba(0, 0, 0, .2))
 
-                &.phone
+                margin-top: 60px
+                max-width: 650px
+
+                @media (min-width: 992px)
+                    margin-top: -50px
+
+                &.ios
                     max-width: 265px
 
-.socials
-    position: absolute
-    bottom: 5px
-    right: 5px
-    display: flex
-    padding: 1rem
-
-    .icon
-        cursor: pointer
-        position: relative
-        display: flex
-        justify-content: center
-        align-items: center
-        overflow: hidden
-        border-radius: 50%
-        margin: 5px
-        line-height: 90px
-        width: 40px
-        height: 40px
-        background-color: #fff
-        box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1)
-        transition: all .2s ease
-
-        &:hover
-            transform: translateY(-2px)
-
-        svg
-            transition: .3s
-            color: var(--color-secondary)
-            height: 21px
-            width: 21px
-            z-index: 25
+                &.samsung
+                    max-width: 240px
 
 .widget_wrapper
     padding: .5em
