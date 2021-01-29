@@ -1,8 +1,121 @@
-footer
-    background-color: #1E2833
-    .footer-head
-        
+
+a:hover
+    text-decoration: none !important    
     
+footer
+    background-color: #0a0e1a
+    .footer-head
+        padding-top: 2em
+        padding-bottom: 2em
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        img
+            width: 82px
+
+        .footer-head-inner
+            display: flex
+            align-items: center
+            font-size: 24px
+            color: var(--font-light)
+
+            span
+                margin-right: 1.5em
+                text-align: right
+
+    .footer-body
+        padding-top: 4em
+        padding-bottom: 2em
+
+        .footer-body-main-wrapper
+            margin: 0
+
+            .footer-body-main
+                h2
+                    font-size: 22px
+                    color: var(--font-light)
+                    width: 80%
+                    margin-bottom: 20px
+                
+                button
+                    padding: 15px
+
+                .input-wrapper
+                    display: flex
+                    justify-content: space-between
+                    max-width: 
+                    margin: 0
+                    border-bottom: 1px solid  hsla(0,0%,100%,.5)
+
+                    input[type=email]
+                        background-color: transparent
+                        border: 0
+                        width: 100%
+                        color: #fff
+
+                        &:focus
+                            outline: 0
+                            border-bottom: 1px solid rgba(0, 132, 255, 1)
+                            
+                    
+                    .btn-submit
+                        box-shadow: none
+
+                
+
+        .footer-body-item
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
+            text-align: left
+
+            h3
+                color: #fff
+                font-size: 18px
+                font-weight: bold
+                margin-bottom: 25px
+                line-height: 1.2em
+
+            .footer-body-item-link a
+                display: flex
+                align-items: center
+
+                font-size: 14px
+                font-weight: 500
+                color: #b3b3b3
+                
+
+                img
+                    width: 24px
+                    margin-right: 7.5px
+
+                &:hover
+                    text-decoration: none
+                    opacity: .8
+
+            .footer-body-item-link + .footer-body-item-link
+                margin-top: 10px
+
+    .footer-footer
+        color: #b3b3b3
+        display: flex
+        justify-content: space-between
+        text-align: center
+        padding-top: 5em
+        padding-bottom: 1em
+        font-size: 12px
+
+        .footer-footer-copyright
+            text-align: center
+
+        .footer-footer-links
+            a
+                color: #b3b3b3
+
+            a + a
+                margin-left: 30px
+
 .nav-holder
     display: block
     width: 100%
@@ -60,17 +173,20 @@ footer
     align-items: center
     background-color: #f800
     box-shadow: 0 3px 20px -2.5px rgba(0, 132, 255, .4)
-    border-radius: 14px
+    border-radius: 40px
     font-weight: 500
     font-size: 17px
     color: #fff
     line-height: 21.6px
-    transition: all 0.2s ease
+    transition: all .2s ease
     padding: 15px 30px
 
     &:hover
         color: #fff
-        transform: translateY(-1.5px)
+        transform: translateY(-2px)
+
+    &:focus
+        box-shadow: 0px 0px 0px 4px rgba(222,211,255, .8)
 
     &.primary
         background-color: var(--color-primary)

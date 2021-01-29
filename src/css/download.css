@@ -1,0 +1,23 @@
+.download {
+  height: 100vh;
+  width: 100%;
+}
+
+.download .download__content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+}
+
+.download .download__content a {
+  color: var(--color-primary);
+}
+
+.download .download__content p {
+  margin: 0;
+}
+/*# sourceMappingURL=download.css.map */

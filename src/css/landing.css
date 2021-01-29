@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.main {
+  margin-top: 50px;
+  margin-bottom: 144px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 600px;
+  text-align: left;
+}
+
+.main h1, .main h3 {
+  text-align: left;
+  color: #fff;
+}
+
+.main h1 {
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 1em;
+  margin-bottom: 18px;
+}
+
+.main h3 {
+  color: #95a2b3;
+  padding-left: 2px;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.main .download-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 45px;
+  max-width: 80%;
+}
+
+.main .download-group button {
+  margin-right: 20px;
+}
+
+.main .download-group span {
+  color: #95a2b3;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: left;
+  font-size: 15px;
+}
+
+.main .download-group span strong {
+  color: #afbac7;
+}
+
+.main .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 56px 0;
+}
+
+.main .row .content {
+  text-align: left;
+  padding-left: 0 !important;
+}
+
+.main .row div.content-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main .row div.content-image svg, .main .row div.content-image img {
+  width: 100%;
+  height: auto;
+  margin-top: -50px;
+  -webkit-filter: drop-shadow(0px 12px 15px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 12px 15px rgba(0, 0, 0, 0.2));
+}
+
+.main .row div.content-image svg.phone, .main .row div.content-image img.phone {
+  max-width: 265px;
+}
+
+.socials {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.socials .icon {
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 5px;
+  line-height: 90px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.socials .icon:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.socials .icon svg {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: var(--color-secondary);
+  height: 21px;
+  width: 21px;
+  z-index: 25;
+}
+
+.widget_wrapper {
+  padding: .5em;
+}
+
+.widget_wrapper .widget {
+  background-color: rgba(255, 255, 255, 0.05);
+  max-height: 522px;
+  min-height: 300px;
+  height: 100%;
+  border-radius: 24px;
+  color: var(--font-light);
+  -webkit-backdrop-filter: saturate(200%) blur(10px) brightness(100%);
+          backdrop-filter: saturate(200%) blur(10px) brightness(100%);
+}
+
+.widget_wrapper .widget .widget__inner {
+  text-align: center;
+  padding: 24px;
+  height: 100%;
+}
+
+.widget_wrapper .widget .widget__inner .widget__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.widget_wrapper .widget .widget__inner .widget__head img {
+  min-height: 72px;
+  max-height: 72px;
+  margin: 20px 20px 12px;
+  width: auto;
+  display: block;
+}
+
+.widget_wrapper .widget .widget__inner .widget__body {
+  text-align: center;
+  display: block;
+}
+
+.widget_wrapper .widget .widget__inner .widget__body h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px´;
+  margin-bottom: 6px;
+}
+
+.widget_wrapper .widget .widget__inner .widget__body p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #eeeeee;
+}
+/*# sourceMappingURL=landing.css.map */
