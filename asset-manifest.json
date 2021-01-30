@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.98909915.chunk.css",
-    "main.js": "./static/js/main.196e81d4.chunk.js",
-    "main.js.map": "./static/js/main.196e81d4.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.af3d035d.js",
-    "runtime-main.js.map": "./static/js/runtime-main.af3d035d.js.map",
+    "main.css": "./static/css/main.8f8bd9dc.chunk.css",
+    "main.js": "./static/js/main.91b309c6.chunk.js",
+    "main.js.map": "./static/js/main.91b309c6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d232c65d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d232c65d.js.map",
     "static/css/2.150d169a.chunk.css": "./static/css/2.150d169a.chunk.css",
-    "static/js/2.a7d3bc34.chunk.js": "./static/js/2.a7d3bc34.chunk.js",
-    "static/js/2.a7d3bc34.chunk.js.map": "./static/js/2.a7d3bc34.chunk.js.map",
-    "static/js/3.9fd160f6.chunk.js": "./static/js/3.9fd160f6.chunk.js",
-    "static/js/3.9fd160f6.chunk.js.map": "./static/js/3.9fd160f6.chunk.js.map",
+    "static/js/2.8920695b.chunk.js": "./static/js/2.8920695b.chunk.js",
+    "static/js/2.8920695b.chunk.js.map": "./static/js/2.8920695b.chunk.js.map",
+    "static/js/3.f5056f23.chunk.js": "./static/js/3.f5056f23.chunk.js",
+    "static/js/3.f5056f23.chunk.js.map": "./static/js/3.f5056f23.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.150d169a.chunk.css.map": "./static/css/2.150d169a.chunk.css.map",
-    "static/css/main.98909915.chunk.css.map": "./static/css/main.98909915.chunk.css.map",
-    "static/js/2.a7d3bc34.chunk.js.LICENSE.txt": "./static/js/2.a7d3bc34.chunk.js.LICENSE.txt",
+    "static/css/main.8f8bd9dc.chunk.css.map": "./static/css/main.8f8bd9dc.chunk.css.map",
+    "static/js/2.8920695b.chunk.js.LICENSE.txt": "./static/js/2.8920695b.chunk.js.LICENSE.txt",
     "static/media/design.d6d0238b.svg": "./static/media/design.d6d0238b.svg",
     "static/media/iphone.200e1f1c.svg": "./static/media/iphone.200e1f1c.svg",
     "static/media/laptop.c02127a7.svg": "./static/media/laptop.c02127a7.svg",
@@ -25,10 +25,10 @@
     "static/media/submit.a44794b2.svg": "./static/media/submit.a44794b2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af3d035d.js",
+    "static/js/runtime-main.d232c65d.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.a7d3bc34.chunk.js",
-    "static/css/main.98909915.chunk.css",
-    "static/js/main.196e81d4.chunk.js"
+    "static/js/2.8920695b.chunk.js",
+    "static/css/main.8f8bd9dc.chunk.css",
+    "static/js/main.91b309c6.chunk.js"
   ]
 }
