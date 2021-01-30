@@ -85,7 +85,7 @@ class Footer extends Component {
               <p>Copyright &copy; 2021 Tim Naumann. All rights reserved.</p>
             </div>
             <div className="footer-footer-links">
-              <Link to="/imprint">Imprint</Link>
+              <Link to="/LegalNotice">Imprint</Link>
               <Link to="/privacypolicy">Privacy Policy</Link>
             </div>
           </div>

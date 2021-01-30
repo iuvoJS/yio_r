@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACA,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CAIQ;;AANhC,AAII,GAJD,CAIC,EAAE,CAAC;EACC,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;CAAG",
+    "sources": [
+        "../sass/personal.sass"
+    ],
+    "names": [],
+    "file": "personal.css"
+}

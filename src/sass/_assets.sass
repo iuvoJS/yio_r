@@ -1,7 +1,7 @@
 
 a:hover
-    text-decoration: none !important    
-    
+    text-decoration: none !important
+
 footer
     background-color: #0a0e1a
     .footer-head
@@ -10,6 +10,11 @@ footer
         display: flex
         justify-content: space-between
         align-items: center
+
+        @media (max-width: 767.98px)
+            flex-direction: column
+            img
+                margin-bottom: 15px
 
         img
             width: 82px
@@ -24,6 +29,13 @@ footer
                 margin-right: 1.5em
                 text-align: right
 
+            @media (max-width: 575.98px)
+                flex-direction: column
+                span
+                    margin-right: 0
+                    margin-bottom: 25px
+                    text-align: center
+
     .footer-body
         padding-top: 4em
         padding-bottom: 2em
@@ -32,21 +44,22 @@ footer
             margin: 0
 
             .footer-body-main
+                margin-bottom: 5px
                 h2
                     font-size: 22px
                     color: var(--font-light)
                     width: 80%
                     margin-bottom: 20px
-                
+
                 button
                     padding: 15px
 
                 .input-wrapper
                     display: flex
                     justify-content: space-between
-                    max-width: 
+                    max-width:
                     margin: 0
-                    border-bottom: 1px solid  hsla(0,0%,100%,.5)
+                    border-bottom: 1px solid hsla(0,0%,100%,.5)
 
                     input[type=email]
                         background-color: transparent
@@ -57,18 +70,16 @@ footer
                         &:focus
                             outline: 0
                             border-bottom: 1px solid rgba(0, 132, 255, 1)
-                            
-                    
+
                     .btn-submit
                         box-shadow: none
-
-                
 
         .footer-body-item
             display: flex
             flex-direction: column
             justify-content: flex-start
             text-align: left
+            margin-top: 25px
 
             h3
                 color: #fff
@@ -77,6 +88,9 @@ footer
                 margin-bottom: 25px
                 line-height: 1.2em
 
+                @media (max-width: 575.98px)
+                    margin-bottom: 10px
+
             .footer-body-item-link a
                 display: flex
                 align-items: center
@@ -84,7 +98,6 @@ footer
                 font-size: 14px
                 font-weight: 500
                 color: #b3b3b3
-                
 
                 img
                     width: 24px
@@ -106,6 +119,9 @@ footer
         padding-bottom: 1em
         font-size: 12px
 
+        @media (max-width: 767.98px)
+            flex-direction: column
+
         .footer-footer-copyright
             text-align: center
 
@@ -115,6 +131,13 @@ footer
 
             a + a
                 margin-left: 30px
+
+            @media (max-width: 767.98px)
+                display: flex
+                flex-direction: column
+                text-align: center
+                a + a
+                    margin-left: 0
 
 .nav-holder
     display: block

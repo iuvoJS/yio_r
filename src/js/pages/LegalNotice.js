@@ -1,9 +1,11 @@
 import { Component } from "react";
-import personal from "../assets/personal.json";
+import personal from "../../config/personal.json";
+import "../../css/personal.min.css"
 import Navbar from "../assets/navbar";
 import Footer from "../assets/footer";
+import { Helmet } from "react-helmet";
 
-class Imprint extends Component {
+class LegalNotice extends Component {
   constructor(props) {
     super(props);
     this.state = { contact: personal.contact };
@@ -12,12 +14,15 @@ class Imprint extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Legal Notice</title>
+        </Helmet>
         <Navbar />
-        <div className="imprint impry">
+        <div className="ln impry">
           <div className="container_2">
-            <h1>Impressum</h1>
-            <div className="imprint__inner">
-              <p className="mb-2">
+            <h1>Legal Notice</h1>
+            <div className="ln__inner">
+              <p className="mb-5">
                 Information in accordance with §5 of the E-Commerce Act, §14 of
                 the Unternehmensgesetzbuch, §63 of the Commercial Code and
                 disclosure requirements under §25 of the Media Act.
@@ -41,4 +46,4 @@ class Imprint extends Component {
   }
 }
 
-export default Imprint;
+export default LegalNotice;

@@ -1,0 +1,17 @@
+{
+    "contact": {
+        "firstname":  "Tim",
+        "lastname": "Naumann",
+
+        "address": "Pottenbrunner Hauptstrasse 71",
+        "addressAdditional": "2. Stock",
+
+        "plz": "4690",
+        "city": "Litzing",
+        "country": "Austria",
+
+        "phone": "0699 712 38 24",
+        "fax": "",
+        "mail": "-"
+    }
+}

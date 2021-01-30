@@ -4,7 +4,8 @@ import { Component } from "react";
 
 import "../../css/download.min.css";
 
-import pathConfig from "../assets/path.json";
+import pathConfig from "../../config/path.json";
+import { Helmet } from "react-helmet";
 
 class Download extends Component {
   componentDidMount() {
@@ -16,6 +17,9 @@ class Download extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Download</title>
+        </Helmet>
         <div className="download">
           <div className="download__content">
             <p>

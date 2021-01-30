@@ -27,11 +27,23 @@
   margin-bottom: 18px;
 }
 
+@media (max-width: 475.98px) {
+  .main h1 {
+    font-size: 54px;
+  }
+}
+
 .main h3 {
   color: #95a2b3;
   padding-left: 2px;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin: 0;
+}
+
+@media (max-width: 475.98px) {
+  .main h3 {
+    font-size: 1.1rem;
+  }
 }
 
 .main .download-group {

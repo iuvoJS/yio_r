@@ -11,17 +11,21 @@ import iconDesign from "../../assets/svg/icons/design.svg";
 import iconLevels from "../../assets/svg/icons/levels.svg";
 import iconSubject from "../../assets/svg/icons/subject.svg";
 import iconSecurity from "../../assets/svg/icons/security.svg";
+import { Helmet } from "react-helmet";
 
 class Landing extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Yeeet It! - Homepage</title>
+        </Helmet>
         <Navbar />
         <div className="main">
           <div className="container_2">
             <div className="row">
               <div className="col-lg-6 content">
-                <h1>Yeeet It Out!</h1>
+                <h1>Yeeet It!</h1>
                 <h3>Lorem ipsum dolor sit amet</h3>
                 <div className="download-group">
                   <Link to="/download-app">
