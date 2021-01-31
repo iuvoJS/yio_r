@@ -21,7 +21,7 @@
 }
 
 .main h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 82px;
   line-height: 1em;
   margin-bottom: 18px;
@@ -192,7 +192,7 @@
 
 .widget_wrapper .widget .widget__inner .widget__body h4 {
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 24px;
   line-height: 27px´;
   margin-bottom: 6px;
@@ -201,7 +201,7 @@
 .widget_wrapper .widget .widget__inner .widget__body p {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: #eeeeee;
 }
 /*# sourceMappingURL=landing.css.map */

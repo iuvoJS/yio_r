@@ -1,11 +1,11 @@
 // import { Link } from "react-router-dom";
-import platform from "platform";
-import { Component } from "react";
 
 import "../../css/download.min.css";
 
-import pathConfig from "../../config/path.json";
+import { Component } from "react";
 import { Helmet } from "react-helmet";
+import pathConfig from "../../config/path.json";
+import platform from "platform";
 
 class Download extends Component {
   componentDidMount() {

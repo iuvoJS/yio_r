@@ -1,9 +1,10 @@
-import { Component } from "react";
-import personal from "../../config/personal.json";
 import "../../css/personal.min.css"
-import Navbar from "../assets/navbar";
+
+import { Component } from "react";
 import Footer from "../assets/footer";
 import { Helmet } from "react-helmet";
+import Navbar from "../assets/navbar";
+import personal from "../../config/personal.json";
 
 class LegalNotice extends Component {
   constructor(props) {

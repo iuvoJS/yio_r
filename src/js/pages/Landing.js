@@ -1,17 +1,15 @@
-import { Link } from "react-router-dom";
-import { Component } from "react";
-import Preview from "../assets/preview";
-
 import "../../css/landing.min.css";
 
-import Navbar from "../assets/navbar";
+import { Component } from "react";
 import Footer from "../assets/footer";
-
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import Navbar from "../assets/navbar";
+import Preview from "../assets/preview";
 import iconDesign from "../../assets/svg/icons/design.svg";
 import iconLevels from "../../assets/svg/icons/levels.svg";
-import iconSubject from "../../assets/svg/icons/subject.svg";
 import iconSecurity from "../../assets/svg/icons/security.svg";
-import { Helmet } from "react-helmet";
+import iconSubject from "../../assets/svg/icons/subject.svg";
 
 class Landing extends Component {
   render() {

@@ -1,9 +1,9 @@
 import { Component } from "react";
-import platform from "platform";
-import isMobile from "./isMobile";
-import iPhone from "../../assets/svg/preview/phone/iphone.svg";
-import Samsung from "../../assets/svg/preview/phone/samsung.svg";
 import MacBook from "../../assets/svg/preview/laptop.svg";
+import Samsung from "../../assets/svg/preview/phone/samsung.svg";
+import iPhone from "../../assets/svg/preview/phone/iphone.svg";
+import isMobile from "./isMobile";
+import platform from "platform";
 
 console.log({Samsung, MacBook, iPhone, isMobile, platform})
 

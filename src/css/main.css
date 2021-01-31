@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
 :root {
   --color-primary: #007AFF;
   --color-primary-alt: #2790ff;
@@ -173,7 +174,7 @@ footer .footer-body .footer-body-item .footer-body-item-link a {
       -ms-flex-align: center;
           align-items: center;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: #b3b3b3;
 }
 
@@ -338,7 +339,7 @@ footer .footer-footer .footer-footer-links a + a {
   -webkit-box-shadow: 0 3px 20px -2.5px rgba(0, 132, 255, 0.4);
           box-shadow: 0 3px 20px -2.5px rgba(0, 132, 255, 0.4);
   border-radius: 40px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 17px;
   color: #fff;
   line-height: 21.6px;
@@ -378,7 +379,7 @@ body {
   background-color: var(--color-tertiary);
   color: #fff;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .container_2 {

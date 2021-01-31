@@ -1,7 +1,7 @@
 import { Component } from "react";
-import logo from "../../assets/svg/logo.svg";
-import iconSubmit from "../../assets/svg/icons/submit.svg";
 import { Link } from "react-router-dom";
+import iconSubmit from "../../assets/svg/icons/submit.svg";
+import logo from "../../assets/svg/logo.svg";
 
 class Footer extends Component {
   render() {
